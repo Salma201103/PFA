@@ -1,0 +1,23 @@
+.search-bar-container {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    z-index: 999; /* Ensure the search bar appears on top of other content */
+  }
+.cardDiv{
+  position:relative;
+  padding: 2rem 1rem;
+  background:var(--whiteColor);
+  border-radius:10px;
+  gap:1rem;
+
+  label{
+    display: block;
+    color:var(--textColor);
+    padding-bottom: 10px;
+    font-size:13px;
+    font-weight:500;
+  }
+  
+}
